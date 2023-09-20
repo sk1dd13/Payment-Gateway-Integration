@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="google-signin-client_id" content="5996736270-5dv4c0jjg4p773d33ilebjm8j21d3ups.apps.googleusercontent.com">
+
+	<!-- Title of webpage -->
+	<title>Google | Minee Social</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- External Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/google.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+
+<body class="bg-dark">
+
+	<!-- Begin: Header Part -->
+	<header>
+		<nav style="background-color:#000" class="navbar sticky-top navbar-expand-md navbar-dark">
+			<a class="navbar-brand" href="index.html">Minee Social</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<!-- <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> -->
+					<li class="nav-item"><a class="nav-link" href="index.html" onclick="signOut();">Sign out</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- End: Header Part -->
+
+	<!-- Begin: Main Part -->
+	<main>
+		<div class="m-container">
+			<div>
+				<div class="m-container-item">
+					<h1 class="title">Your Google Profile</h1>
+					<!-- <q class="tagline">Sign in through one of OAuth to fetch your profile details</q> -->
+                    <!-- <div class="g-signin2" data-onsuccess="onSignIn" data-width="240" data-longtitle="true"></div> -->
+				</div>
+				<div class="m-container-item" id="profile-body"></div>
+			</div>
+		</div>
+	</main>
+	<!-- End: Main Part -->
+
+	<!-- Begin: Footer Part -->
+	<footer class="footer text-center py-2">
+		<p>© Project created by <a href="https://www.linkedin.com/in/hardikmaks17/">Hardik Makwana</a> under <a href="https://www.linkedin.com/company/the-sparks-foundation/">The Sparks Foundation</a> internship. <b>(#GripAugust21)</b></p>
+	</footer>
+	<!-- End: Footer Part -->
+
+	<!-- Separate Popper and Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+	<!-- External JS Files -->
+	<script src="js/google.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</body>
+</html>

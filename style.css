@@ -1,0 +1,36 @@
+/* Begin: Common Part */
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+/* End: Common Part */
+
+/* Begin: Main Part */
+	.m-container {
+		display: grid;
+		height: 80vh;
+		place-items: center;
+		text-align: center;
+		/* vertical-align: middle; */
+	}
+
+	.m-container-item {
+		margin: 2em 0;
+	}
+
+	.title {
+		color: #fff;
+	}
+
+	.tagline {
+		font-size: 1.25em;
+		color: #c5c4c3;
+	}
+
+	.title:hover{
+		transition: 0.5s;
+		transform: scale(1.1);
+	}
+/* End: Main Part */

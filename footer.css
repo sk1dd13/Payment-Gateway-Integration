@@ -1,0 +1,19 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#000;
+    background-color:#fff;
+    letter-spacing: 0.5px;
+}
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+footer a {
+    color: #f00;
+}
+footer a:hover {
+    color: #f00;
+}
